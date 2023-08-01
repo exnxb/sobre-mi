@@ -1,0 +1,94 @@
+/* styles.css */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #10464F;
+}
+
+
+/* Esta parte lo que hará es formatear la parte del encabezado */
+header {
+    background-color: #006D84;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+/* Esta parte lo que hará es formatear la parte de los links */
+nav {
+    background-color: #B4E2EB;
+    padding: 15px;
+    text-align: center;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #720D0A;
+}
+
+
+/* Esta parte lo que hará es formatear la parte del cuerpo*/
+main {
+    
+    padding-left: 500px; 
+    padding-right: 500px;
+    padding-bottom: 200px;
+}
+
+section {
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+  
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+
+article h2 {
+  
+    /*Separadores*/
+    border-bottom: 5px solid #B4E2EB;
+    padding-bottom: 5px;
+    /*Títulos*/
+    text-align: center;
+    color: #B4E2EB;
+}
+
+article ul {
+    /*Listas*/
+    list-style: circle;
+    padding-left: 25px;  
+    color: #B4E2EB
+}
+
+article li {
+    margin-bottom: 5px;
+}
+
+
+article section {
+
+    justify-content: center;
+}
+
+article p {
+
+    text-align: center;
+    color: #B4E2EB
+}
